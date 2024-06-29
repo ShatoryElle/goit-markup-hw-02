@@ -20,29 +20,33 @@ a {
     color: #4d5ae5;
     text-transform: uppercase;
 }
-.logo span {
+.logo .logo-studio {
     color: #2e2f42;
 }
-header-nav {
+.header-nav {
     font-weight: 500;
     color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-header-nav a:hover,
-header-nav a:focus {
+.header-nav:hover,
+.header-nav:focus {
     color: #404bbf;
 }
 
 .address {
+    font-size: normal;
+}
+.adress-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address a:hover,
-.address a:focus {
+
+.address:hover,
+.address:focus {
     color: #404bbf;
 }
 
@@ -70,6 +74,7 @@ header-nav a:focus {
 .button:hover,
 .button:focus {
     background-color: #404bbf;
+    color: #ffffff;
 }
 
 
@@ -78,9 +83,9 @@ header-nav a:focus {
 }
 .team-title {
     text-transform: capitalize;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
