@@ -23,7 +23,7 @@ a {
 .logo span {
     color: #2e2f42;
 }
-header nav a {
+header-nav a {
     font-weight: 500;
     color: #2e2f42;
     text-transform: uppercase;
@@ -31,8 +31,8 @@ header nav a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-header nav a:hover,
-header nav a:focus {
+header-nav a:hover,
+header-nav a:focus {
     outline: #404bbf;
 }
 
@@ -40,6 +40,8 @@ header nav a:focus {
     font-style: normal;
 }
 .address a {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 .address a:hover,
