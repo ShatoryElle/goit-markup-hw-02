@@ -1,5 +1,5 @@
 /* Header */
-body {
+.body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
@@ -26,7 +26,6 @@ a {
 header-nav a {
     font-weight: 500;
     color: #2e2f42;
-    text-transform: uppercase;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -37,9 +36,7 @@ header-nav a:focus {
 }
 
 .address {
-    font-style: normal;
-}
-.address a {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -49,11 +46,20 @@ header-nav a:focus {
     color: #404bbf;
 }
 
+.hero {
+    background-color: #2e2f42;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+}
 .button {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
     background-color: #4d5ae5;
@@ -72,9 +78,9 @@ header-nav a:focus {
 }
 .team-title {
     text-transform: capitalize;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -86,22 +92,18 @@ header-nav a:focus {
     background-color: #ffffff;
 }
 .team-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
+    background-color: #ffffff;
 }
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
 }
-
+.portfolio {
+    background-color: #f4f4fd;
+}
 .portfolio-title {
     letter-spacing: 0.02em;
     text-align: center;
@@ -109,7 +111,7 @@ header-nav a:focus {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
-    line-height: 40px;
+    line-height: 1.11;
     color: #2e2f42;
 }
 .portfolio-list {
@@ -119,7 +121,11 @@ header-nav a:focus {
     background-color: #ffffff;
 }
 .portfolio-subtitle {
-background-color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    color: #2e2f42;
 }
 .potrfolio-text {
     font-size: 16px;
@@ -145,10 +151,7 @@ background-color: #ffffff;
 
 }
 .footer-text {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    line-height: 1.5;
     color: #f4f4fd;
-    font-weight: 400;
     letter-spacing: 0.02em;
-
 }
