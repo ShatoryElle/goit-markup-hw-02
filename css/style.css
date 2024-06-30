@@ -62,13 +62,14 @@ a {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    border: none;
+    cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
-    background-color: #4d5ae5;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
+
 }
 .button:hover,
 .button:focus {
@@ -178,7 +179,4 @@ a {
     font-size: 16px;
     color: #f4f4fd;
     letter-spacing: 0.02em;
-}
-.footer-logo {
-    color: #4d5ae5;
 }
