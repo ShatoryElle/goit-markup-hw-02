@@ -30,10 +30,14 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.header-nav-link {
+    color: #2e2f42;
+}
 .header-nav-link:hover,
 .header-nav-link:focus {
     color: #404bbf;
 }
+/*
 .header-list {
     color: #2e2f42;
 }
@@ -41,9 +45,7 @@ a {
 .header-list:focus {
     color: #404bbf;
 }
-
-
-
+*/
 .address {
     font-style: normal;
 }
