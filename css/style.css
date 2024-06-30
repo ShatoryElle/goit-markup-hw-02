@@ -47,17 +47,15 @@ a {
 .address {
     font-style: normal;
 }
-.adress-list {
+.adress-list .adress-item-link {
     font-size: 16px;
-}
-.adress-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.address-item:hover,
-.address-item:focus {
+.address-item .adress-item-link:hover,
+.address-item .adress-item-link:focus {
     color: #404bbf;
 }
 /*Section1*/
