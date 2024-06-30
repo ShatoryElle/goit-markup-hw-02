@@ -30,6 +30,15 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.header-item {
+    color: #2e2f42;
+}
+.header-item:hover,
+.header-item:focus {
+    color: #404bbf;
+}
+
 .header-nav:hover,
 .header-nav:focus {
     color: #404bbf;
@@ -38,15 +47,15 @@ a {
 .address {
     font-style: normal;
 }
-.adress-list {
+.adress-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.address:hover,
-.address:focus {
+.address-item:hover,
+.address-item:focus {
     color: #404bbf;
 }
 /*Section1*/
@@ -160,9 +169,9 @@ a {
 }
 .potrfolio-text {
     font-size: 16px;
+    color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 .footer {
     background-color: #2e2f42;
