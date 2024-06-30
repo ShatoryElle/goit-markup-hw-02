@@ -37,15 +37,7 @@ a {
 .header-nav-link:focus {
     color: #404bbf;
 }
-/*
-.header-list {
-    color: #2e2f42;
-}
-.header-list:hover,
-.header-list:focus {
-    color: #404bbf;
-}
-*/
+
 .address {
     font-style: normal;
 }
@@ -56,8 +48,8 @@ a {
     color: #434455;
 }
 
-.address-list .adress-item-link:hover,
-.address-list .adress-item-link:focus {
+.address-list .address-item-link:hover,
+.address-list .address-item-link:focus {
     color: #404bbf;
 }
 /*Section1*/
