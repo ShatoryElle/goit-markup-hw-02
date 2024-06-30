@@ -49,7 +49,10 @@ a {
 .address:focus {
     color: #404bbf;
 }
-
+/*Section1*/
+.hero {
+    background-color: #2e2f42;
+}
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -76,6 +79,8 @@ a {
 .button:focus {
     background-color: #404bbf;
     color: #ffffff;
+
+/*Section2*/
 }
 .section-item-title {
     font-weight: 500;
@@ -91,6 +96,7 @@ a {
     color: #434455;
 }
 
+/*Section3*/
 .team {
     background-color: #f4f4fd;
 }
@@ -122,6 +128,8 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+
+  /*Section4*/  
 }
 .portfolio {
     background-color: #f4f4fd;
