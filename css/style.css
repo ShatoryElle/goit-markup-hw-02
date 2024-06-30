@@ -30,8 +30,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-nav:hover,
-.header-nav:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: #404bbf;
 }
 .header-list {
@@ -47,7 +47,7 @@ a {
 .address {
     font-style: normal;
 }
-.adress-list .adress-item-link {
+.address-list .address-item-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
