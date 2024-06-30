@@ -1,4 +1,4 @@
-/* Header */
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -11,6 +11,7 @@ ol {
 a {
     text-decoration: none;
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -23,6 +24,7 @@ a {
 .logo-studio {
     color: #2e2f42;
 }
+
 .header-nav {
     font-weight: 500;
     color: #2e2f42;
@@ -52,7 +54,7 @@ a {
 .address-list .address-item-link:focus {
     color: #404bbf;
 }
-/*Section1*/
+
 .hero {
     background-color: #2e2f42;
 }
@@ -83,7 +85,6 @@ a {
     background-color: #404bbf;
     color: #ffffff;
 
-/*Section2*/
 }
 .section-item-title {
     font-weight: 500;
@@ -99,7 +100,6 @@ a {
     color: #434455;
 }
 
-/*Section3*/
 .team {
     background-color: #f4f4fd;
 }
@@ -132,7 +132,6 @@ a {
     text-align: center;
     color: #434455;
 
-  /*Section4*/  
 }
 .portfolio {
     background-color: #f4f4fd;
@@ -161,7 +160,7 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.potrfolio-text {
+.portfolio-text {
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
