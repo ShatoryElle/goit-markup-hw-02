@@ -56,8 +56,8 @@ a {
     color: #434455;
 }
 
-.address-item .adress-item-link:hover,
-.address-item .adress-item-link:focus {
+.address-list .adress-item-link:hover,
+.address-list .adress-item-link:focus {
     color: #404bbf;
 }
 /*Section1*/
