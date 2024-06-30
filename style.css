@@ -20,7 +20,7 @@ a {
     color: #4d5ae5;
     text-transform: uppercase;
 }
-.logo .logo-studio {
+.logo {
     color: #2e2f42;
 }
 .header-nav {
@@ -36,7 +36,7 @@ a {
 }
 
 .address {
-    font-size: normal;
+    font-size: 16px;
 }
 .adress-list {
     font-size: 16px;
@@ -129,7 +129,7 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .potrfolio-text {
