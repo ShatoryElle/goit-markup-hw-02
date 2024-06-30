@@ -30,32 +30,32 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-.header-item {
-    color: #2e2f42;
-}
-.header-item:hover,
-.header-item:focus {
-    color: #404bbf;
-}
-
 .header-nav:hover,
 .header-nav:focus {
     color: #404bbf;
 }
+.header-list {
+    color: #2e2f42;
+}
+.header-list:hover,
+.header-list:focus {
+    color: #404bbf;
+}
+
+
 
 .address {
     font-style: normal;
 }
-.adress-item {
+.adress-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.address-item:hover,
-.address-item:focus {
+.address-list:hover,
+.address-list:focus {
     color: #404bbf;
 }
 /*Section1*/
